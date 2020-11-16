@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+  
+
+    <title>jMoraZ: Contact Chef</title>
+</head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="images/ShrimpNGrits.jpg" class="img-fluid"/>
+                </div>
+                <div class="col">
+                     <h1>jMoraZ</h1>
+                    <h2>Fine Dining Experiences at Home</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"> <img src="images\ShrimpNGrits.jpg" height="30" width="30"/></a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#jmorazNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="jmorazNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html"> <i class="fa fa-home fa-lg"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutchef.html"> <i class="fa fa-info fa-lg"></i> About Chef</a></li>
+                        <li class="nav-item"><a class="nav-link" href="OntheMenu.html"> <i class="fa fa-list fa-lg"></i>On The Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="JustDeserts.html"> <i class="fa fa-list fa-lg"></i>Just Deserts</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="contactchef.html"> <i class="fa fa-address-card fa-lg"></i>Contact Chef</a></li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-12">
+                <h2>May We Take Your Order?</h2>
+                <hr />
+            </div>
+            <div class="col-md-12">
+                <form class="form">
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" />
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-6">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number"/>
+                        </div>
+                        <div class="col-6">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6">
+                            <input type="date" name="date" id="date" class="form-control" placeholder="Event Date"/>
+                        </div>
+                        <div class="col-md-6">
+                            <select name="partySize" id="partySize" class="form-control">
+                                <option selected>Party Size</option>
+                                <option value="two">2</option>
+                                <option value="three to five">3-5</option>
+                                <option value="six to 10">6-10</option>
+                                <option value="Eleven to Twenty">11-20</option>
+                                <option value="Twenty Plus">20+</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                       
+                            <select name="partySize" id="partySize" class="form-control">
+                                <option selected>Occasion:</option>
+                                <option value="Anniversary/Proposal">Anniversary/Proposal</option>
+                                <option value="Birthday">Birthday</option>
+                                <option value="Shower">Bridal/Baby Shower</option>
+                                <option value="Holiday">Holiday</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <hr/>
+
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            Pre-planned Options:
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="beef" name="optionRadios" value="beef" />
+                                <label for="contactYes" class="form-check-label">Beef</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="seafood" name="optionRadios" value="seafood" />
+                                <label for="contactNo" class="form-check-label">Seafood</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="poultry" name="optionRadios" value="poultry" />
+                                <label for="contactNo" class="form-check-label">Poultry</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="pork" name="optionRadios" value="pork" />
+                                <label for="contactNo" class="form-check-label">Pork</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="vegetarian" name="optionRadios" value="vegetarian" />
+                                <label for="contactNo" class="form-check-label">Vegetarian</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">   
+                        <label for="alaCarte" class="col-md-3 col-form-label">Ala Carte?</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="alaCarte" name="alaCarte" rows="15" placeholder="Enter ala carte options and/or deserts"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Place Order</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutchef.html">About Chef</a></li>
+                        <li><a href="OntheMenu.html">On the Menu</a></li>
+                        <li><a href="JustDeserts.html">Just Deserts</a></li>
+                        <li><a href="contactchef.html">Contact Chef</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/the_chef3924/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/search/top?q=javier%20haygood"><i class="fa fa-facebook"></i></a>
+                    
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+2065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br>
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.com"> <i class="fa fa-envelope-o"></i> chefjt@jMoraz.com</a>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
